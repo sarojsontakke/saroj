@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Registration Form</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+    
+    </head>
+    <body>
+        <table>
+            <tr>
+                <td>
+                    <form onsubmit="event.preventDefault();onFormSubmit();" autocomplete="off">
+                        <div class="register">
+                            <h2> Register Here</h2>
+                            <from id="register" method="post">
+                        
+                        <div>
+                            <lable>Name :</lable>
+                            <input type="text" name="Fullname"
+                            id="name" placeholder="Enter your Full Name">
+                        </div>
+                        <div>
+                            <lable>Email :</lable> 
+                         <input type="email" name="emailId"
+                          id="text" placeholder="Enter your emailId">   
+    
+                        </div>
+                        <div>
+                            <lable>PhoneNo :</lable> 
+                            <input type="number" name="PhoneNo"
+                            id="text-align" placeholder="Enter your phoneNo"> 
+                        </div>
+                        <div>
+                            <lable>Age :</lable> 
+                            <input type="number" name="Age"
+                             placeholder="Enter your age">   
+                        </div>
+                        <div>
+                            <lable>Gender :</lable> 
+                            &nbsp;&nbsp;&nbsp;
+                            <input type="radio" name="gender"
+                            id="male">
+                            &nbsp;
+                            <span id=" male"> Male </span>
+                            &nbsp;&nbsp;&nbsp;&nbsp;
+                            <input type="radio" name="gender"
+                            id="female">
+                            &nbsp;
+                            <span id =" female"> Female </span>
+
+                        </div>
+                        <div>
+                            <label>Photos :</label>
+                            <input type="file" name="Photos" id="image" multiple="">
+                            <button class="button" type="button"><br>Choose images</button>
+                        </div>
+                        <div>
+                            <lable>Address :</lable>
+                            <input type="name" name="Address"
+                            id="Address" placeholder="Enter your address">
+                        </div>
+                        <div class="form_action--button">
+                            <input type="submit" value="Submit">
+                            <input type="reset"  value="Reset">
+                            
+                        </div>
+            
+                        
+                
+                    </from>
+
+                    <td>
+                        <table class="list" id="registerform">
+                            <thead>
+                                <tr>
+                                 <th>Name</th>
+                                 <th>Email</th>
+                                 <th>PhoneNo</th>
+                                 <th>Age</th>
+                                 <th>Gender</th>
+                                 <th>Photo</th>
+                                 <th>Address</th>
+                                </tr>
+   
+                            </thead>
+                            <tbody>
+   
+                            </tbody>
+                        </table>
+                    </td>
+                    <script src="script.js"></script>
+
+
+                        </div>
+                     
+                    </form>
+                </td>
+            </tr>
+        </table>
+    </body>
+</html>               

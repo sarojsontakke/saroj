@@ -1,0 +1,89 @@
+body {
+    background-color: chocolate;
+    background-size: cover;
+}
+table{
+    width: 80%;
+    margin: 40px auto;
+    background-attachment: fixed;
+    border-collapse:collapse;
+}
+table.list{
+  width: 100%;
+  text-align: center;
+}
+td,th{
+    border:1px solid #ddd;
+    text-align: left;
+    padding:8px;
+}
+tr:nth-child(even),table.list thread>tr{
+    background-color: #ddd;
+}
+input[type="text"],input[type="number"]{
+    width: 100;
+    padding: 12px 20px;
+    margin:8px 0;
+    display:inline-block;
+    border: 1px soli rgb(165,161,161);
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+input[type="Submit"],input[type="reset"]{
+    width: 30%;
+    background-color: auto;
+    color:#000 #000;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius:4px;
+    cursor: pointer;
+    outline: none;
+    
+}
+input[type="submit"]:hover{
+    background-color: aqua;
+}
+input[type="reset"]:hover{
+    background-color: aqua;
+}
+button{
+    width: 30%;
+    background-color: auto;
+    color:#000 #000;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius:4px;
+    cursor: pointer;
+    outline: none;
+}
+button:hover{
+    width: 30%;
+    background-color: auto;
+    color:#000 #000;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius:4px;
+    cursor: pointer;
+    outline: none;
+  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
